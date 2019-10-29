@@ -14,3 +14,7 @@ libraryDependencies ++= Seq(
 
 // scalaFmt
 scalafmtOnCompile := true
+
+scalacOptions ++= Seq(
+  "-language:implicitConversions"
+)
